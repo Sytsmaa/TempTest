@@ -1,0 +1,9 @@
+applications:
+- path: TempTest.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Temp Test
+  host: temptest
+  disk_quota: 1024M
+  buildpack: https://github.com/zendtech/zend-server-php-buildpack-bluemix.git
