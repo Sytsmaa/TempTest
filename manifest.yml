@@ -6,4 +6,4 @@ applications:
   name: Temp Test
   host: temptest
   disk_quota: 1024M
-  buildpack: https://github.com/micw/php-java-bridge.git
+  buildpack: https://github.com/cloudfoundry/php-buildpack.git
