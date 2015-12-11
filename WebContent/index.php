@@ -1,4 +1,5 @@
 <?php
+	echo "<p>We up here boys</p>";
 	$test = new Java("Test");
 	$msg1 = $test->getMsg();
 	$msg2 = $test->getMsg("2nd");
